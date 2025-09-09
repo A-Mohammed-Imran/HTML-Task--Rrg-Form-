@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom right, #6ec5ff, #a586ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container {
+    padding: 25px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: max(5%, 15%);
+    /* margin: 15%;
+    margin-left: 25%;
+    margin-top: 5%; */
+    border-radius: 1.5%;
+    width: 50%;
+}
+
+h1 {
+    margin: 25px;
+    margin-left: 5px;
+}
+
+.one {
+    display: flex;
+    margin-left: 0px;
+}
+
+.two {
+    margin: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+
+    input {
+        padding: 5px;
+        width: 95%;
+        height: 2rem;
+        margin-right: 10px;
+        border: 2px solid lightgrey;
+        border-radius: 5px;
+    }
+
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+    margin-left: 0px;
+
+}
+
+label {
+    width: 100%;
+}
+
+button {
+    background: linear-gradient(to bottom right, #6ec5ff, #a586ff);
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 0px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Gender {
+    accent-color: rgb(53, 127, 255);
+}
+
+#gp {
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    background: none;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 50%;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .one {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 12px;
+        height: 35px;
+    }
+    
+}
